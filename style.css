@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 26;
+    font-style: italic;
+    font-weight: 700;
+}
+.logo .l1, .l3{
+    color: #FB3F6C;
+}
+.logo .l2{
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menus ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menus ul li a{
+    font-size: 16px;
+    color: #747582;
+}
+.nav-btn{
+    width: 143px;
+    height: 55px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #FF698D;
+    border-radius: 100px;
+    /* padding: 10px;    */
+    /* box-sizing: padding-box; */
+    background-color: white;
+}
+.header{
+    margin-top: 30px;
+    position: relative;
+}
+.hero{
+    width: 646px;
+}
+.wrapper{
+    height: 780px;
+    position: relative;
+    /* background: gainsboro; */
+    /* background: #000; */
+}
+.vector-img{
+    position: relative;
+    top: 225px;
+    left: 325px;
+}
+.rec1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.rec2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.inner-banner{
+    display: flex;
+    justify-content: center;
+}
+.info-sec{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.info-sec img{
+    width: 30px;
+    height: 30px;
+}
+.info1{
+    color: #F17216;
+    font-size: 16px;
+}
+.m-text{
+    font-size: 58px;
+    font-weight: bold;
+    color: #282C4B;
+    margin-bottom: 30px;
+}
+.sub-info{
+    width: 561px;
+    font-size: 20px;
+    color: #747582;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+.btn-area{
+    display: flex;
+    gap: 30px;
+}
+.common-btn{
+    border: 1px solid white;
+    width: 210px;
+    height: 68px;
+    background: #FF698D;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.wtc-btn{
+    width: 210px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
