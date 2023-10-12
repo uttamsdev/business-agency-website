@@ -294,3 +294,150 @@
     width: 83px;
     /* height: 150px; */
 }
+.testimonial{
+    margin-top: 120px;
+    height: 880px;
+}
+.testimonial-title{
+    color: #F17216;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.testimonial-heading{
+    font-size: 34px;
+    font-weight: bold;
+    color: #282C4B;
+}
+.review{
+    width: 534px;
+    height: 327px;
+    padding: 30px;
+    /* background: */
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.testimonial-review{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.review-msg{
+    color: #5D6473;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.review img:first-child{
+    margin-bottom: 10px;
+}
+.rvw-name{
+    font-size: 20px;
+    color: #101D34;
+    font-weight: bold;
+
+}
+.testimonial-bg{
+    position: relative;
+}
+.p-img{
+    position: absolute;
+    z-index: -1;
+
+    /* bottom: 0; */
+}
+.review-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+.msg-area{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.msg-title{
+    color: #F17216;
+    font-size: 16px;
+}
+.msg-heading{
+    font-size: 34px;
+    font-weight: bold;
+    color: #282C4B;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.msg-label{
+    color: #14183E;
+    font-size: 20px;
+    font-weight: 600;
+    /* background: red; */
+    margin-bottom: 8px;
+
+}
+.msg-container{
+    width: 539px;
+    height: 672px;
+}
+input[type="text"]{
+    width: 539px;
+    height: 58px;
+    /* background: red; */
+    border: none;
+    outline: none;
+    background: #FFF8F8;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+::placeholder{
+    font-size: 15px;
+    color: #747582;
+    /* padding-left: 20px; */
+}
+.email-date{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input[type="email"]{
+    width: 257px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #FFF8F8;
+    padding-left: 20px;
+}
+input[type="date"]{
+    width: 257px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #FFF8F8;
+    padding-left: 20px;
+}
+textarea{
+    width: 539px;
+    height: 116px;
+    background: #FFF8F8;
+    outline: none;
+    border: none;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+footer{
+    height: 114px;
+    background: #282C4B;
+    display: flex;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f-menu{
+    color: white;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
